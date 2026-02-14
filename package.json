@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "A lightweight and modern starter template for building web applications using Solid and Vite with fast builds, hot module replacement, and production-ready configurations",
   "type": "module",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=10.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexferl/solid-boilerplate.git"

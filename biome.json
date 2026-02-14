@@ -16,10 +16,20 @@
   },
   "linter": {
     "enabled": true,
+    "domains": {
+      "solid": "all"
+    },
     "rules": {
       "recommended": true,
       "style": {
-        "noNestedTernary": "error"
+        "noNestedTernary": "error",
+        "useConsistentArrayType": "error"
+      },
+      "suspicious": {
+        "noConsole": "warn"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "warn"
       }
     }
   },
